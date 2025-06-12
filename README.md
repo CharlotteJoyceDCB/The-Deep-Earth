@@ -1,4 +1,4 @@
-# 🌍 Deep Earth
+# 🌍 The Deep Earth
 
 **Deep Earth** is an interactive scroll experience that takes users on a visual and educational journey from the surface of the Earth down into the crust. Inspired by [Neal.fun's Deep Sea](https://neal.fun/deep-sea/), this project reimagines the depths of our planet, revealing fossils, rock layers, excavation artifacts, and geological transitions leading toward the mantle.
 
