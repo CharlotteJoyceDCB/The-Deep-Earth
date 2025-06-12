@@ -1,54 +1,37 @@
-# React + TypeScript + Vite
+# 🌍 The Deep Earth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Deep Earth** is an interactive scroll experience that takes users on a visual and educational journey from the surface of the Earth down into the crust. Inspired by [Neal.fun's Deep Sea](https://neal.fun/deep-sea/), this project reimagines the depths of our planet, revealing fossils, rock layers, excavation artifacts, and geological transitions leading toward the mantle.
 
-Currently, two official plugins are available:
+## 🚀 Inspiration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is heavily inspired by [Neal Agarwal's Deep Sea](https://neal.fun/deep-sea/) — a brilliantly simple yet captivating scroll-based experience exploring the ocean's depth. *Deep Earth* flips the concept by diving beneath the surface of the Earth instead of the sea, allowing users to explore underground wonders layer by layer.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **TypeScript** – For strong typing and scalable development
+- **React** – Component-based UI framework
+- **Framer Motion** – Smooth animations and scroll-based effects
+- **SVG** – For detailed and scalable graphics (grass blades, clouds, soil, etc.)
+- **CSS/SCSS** – Custom styling for immersive visuals
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🎨 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Realistic animated grass and cloud layers using SVG and Framer Motion
+- Scroll-synced journey through the Earth's crust with immersive transitions
+- Interactive discoveries: fossils, minerals, magma pockets, ancient tools
+- Depth markers and dramatic section dividers (e.g., crust boundaries)
+- Atmospheric elements such as mist and ambient motion for immersion
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧠 Learnings
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project deepened my understanding of scroll-based animation, visual storytelling in React, and how to use Framer Motion effectively to drive immersive experiences.
+
+## 🙏 Credits
+
+- Inspired by [Neal.fun's Deep Sea](https://neal.fun/deep-sea/)
+- Icons and illustrations either custom-made or from free-use sources (e.g. Undraw, OpenClipart)
+- Thanks to [Framer Motion](https://www.framer.com/motion/) and the open-source community
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
