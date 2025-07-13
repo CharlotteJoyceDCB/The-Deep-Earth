@@ -8,7 +8,7 @@ function App() {
       {/* Sky Background */}
       <div
         style={{
-          position: "fixed",
+          position: "absolute",
           top: 0,
           left: 0,
           height: "100vh",

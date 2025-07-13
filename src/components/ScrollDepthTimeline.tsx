@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform, useAnimation } from 'framer-motion';
+import EmbeddedStones from './EmbeddedStones';
 
 // Earth layer colors (brown → blackened red molten)
 const depthColors = [
@@ -104,7 +105,9 @@ const ScrollDepthTimeline = () => {
           zIndex: 10,
         }}
       />
-
+      
+        <EmbeddedStones />
+        
       {/* Sample object (seedling at 150m) */}
       <motion.div
         style={{
