@@ -27,7 +27,7 @@ const ScrollDepthTimeline = () => {
   const controls = useAnimation();
 
   const totalDepth = 16090; // meters
-  const pixelsPerMeter = 30;
+  const pixelsPerMeter = 40;
   const scrollHeight = `${totalDepth * pixelsPerMeter}px`;
 
   const background = useTransform(scrollYProgress, colorStops, colorValues);
